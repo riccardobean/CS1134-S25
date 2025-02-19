@@ -1,6 +1,5 @@
 import math
 
-
 def factors(num):
     yield 1
     factor = []
