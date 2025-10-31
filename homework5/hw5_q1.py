@@ -55,4 +55,5 @@ def prompter():
             variables.append(tpl)
             print(var_name)
 
+
 prompter()
