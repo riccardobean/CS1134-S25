@@ -24,4 +24,5 @@ class LinkedQueue:
             raise Exception("Queue is empty")
         val = self.dll.delete_first()
         self.dll.add_first(val)
+
         return val
