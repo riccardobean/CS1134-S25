@@ -4,4 +4,5 @@ def shift(lst, k, move = "left"):
     for i in range(k):
         char = lst.pop(0)
         lst.append(char)
+
     return lst
